@@ -1,0 +1,10 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"
+                  xmlns:bs="http://fazaki.com/spring-boot-soap-example-fazaki"
+                  >
+    <soapenv:Header/>
+    <soapenv:Body>
+        <bs:getBookRequest>
+            <bs:title>The little prince</bs:title>
+        </bs:getBookRequest>
+    </soapenv:Body>
+</soapenv:Envelope>
